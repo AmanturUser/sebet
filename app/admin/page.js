@@ -108,7 +108,7 @@ export default function SignIn() {
                   </a>
                   <h3>Sign In</h3>
                 </div>
-                <div className="form-floating mb-3">
+                <form onSubmit={signInPost}><div className="form-floating mb-3">
                   <input
                     type="text"
                     className="form-control"
@@ -143,9 +143,9 @@ export default function SignIn() {
                     </div>
                     <a href="">Forgot Password</a>
                   </div>
-                  <button onClick={signInPost} className="btn btn-primary py-3 w-100 mb-4">
+                  <button type='submit' className="btn btn-primary py-3 w-100 mb-4">
                     Sign In
-                  </button>
+                  </button></form>
                 <p className="text-center mb-0">
                   Don't have an Account? <a href="">Sign Up</a>
                 </p>
