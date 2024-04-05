@@ -79,7 +79,7 @@ export default function About(){
     >
       <a href="index.html" className="navbar-brand ms-4 ms-lg-0">
         <h1 className="fw-bold text-primary m-0">
-          F<span className="text-secondary">oo</span>dy
+        S<span className="text-secondary">e</span>b<span className="text-secondary">e</span>t
         </h1>
       </a>
       <button
@@ -258,7 +258,7 @@ export default function About(){
       <div className="row g-5">
         <div className="col-lg-3 col-md-6">
           <h1 className="fw-bold text-primary mb-4">
-            F<span className="text-secondary">oo</span>dy
+          S<span className="text-secondary">e</span>b<span className="text-secondary">e</span>t
           </h1>
           <p>
             Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat

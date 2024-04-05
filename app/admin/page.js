@@ -23,7 +23,9 @@ export default function SignIn() {
           'content-Type': 'application/json'
         },
         body: JSON.stringify(submitData),
-      }).then((res) => res.json())
+      })
+      if(result.ok){
+        result.json()
       .then((data) => {
         console.log("Yeai!")
         setData(data)
@@ -32,6 +34,7 @@ export default function SignIn() {
         localStorage.setItem('jsonWebToken',('Bearer '+token))
         window.location.assign('/admin/dashboard')
       });
+      }
     } catch (error) {
       console.log(error)
     }

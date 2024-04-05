@@ -266,105 +266,9 @@ export default function Users(){
               <a href="#" className="sidebar-toggler flex-shrink-0">
                 <i className="fa fa-bars" />
               </a>
-              <form className="d-none d-md-flex ms-4">
-                <input
-                  className="form-control border-0"
-                  type="search"
-                  placeholder="Search"
-                
-                />
-              </form>
+          
               <div className="navbar-nav align-items-center ms-auto">
-                <div className="nav-item dropdown">
-                  <a
-                    href="#"
-                    className="nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                  >
-                    <i className="fa fa-envelope me-lg-2" />
-                    <span className="d-none d-lg-inline-flex">Message</span>
-                  </a>
-                  <div className="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                    <a href="#" className="dropdown-item">
-                      <div className="d-flex align-items-center">
-                        <img
-                          className="rounded-circle"
-                          src="img/user.jpg"
-                          alt=""
-                          style={{ width: 40, height: 40 }}
-                        />
-                        <div className="ms-2">
-                          <h6 className="fw-normal mb-0">Jhon send you a message</h6>
-                          <small>15 minutes ago</small>
-                        </div>
-                      </div>
-                    </a>
-                    <hr className="dropdown-divider" />
-                    <a href="#" className="dropdown-item">
-                      <div className="d-flex align-items-center">
-                        <img
-                          className="rounded-circle"
-                          src="img/user.jpg"
-                          alt=""
-                          style={{ width: 40, height: 40 }}
-                        />
-                        <div className="ms-2">
-                          <h6 className="fw-normal mb-0">Jhon send you a message</h6>
-                          <small>15 minutes ago</small>
-                        </div>
-                      </div>
-                    </a>
-                    <hr className="dropdown-divider" />
-                    <a href="#" className="dropdown-item">
-                      <div className="d-flex align-items-center">
-                        <img
-                          className="rounded-circle"
-                          src="img/user.jpg"
-                          alt=""
-                          style={{ width: 40, height: 40 }}
-                        />
-                        <div className="ms-2">
-                          <h6 className="fw-normal mb-0">Jhon send you a message</h6>
-                          <small>15 minutes ago</small>
-                        </div>
-                      </div>
-                    </a>
-                    <hr className="dropdown-divider" />
-                    <a href="#" className="dropdown-item text-center">
-                      See all message
-                    </a>
-                  </div>
-                </div>
-                <div className="nav-item dropdown">
-                  <a
-                    href="#"
-                    className="nav-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                  >
-                    <i className="fa fa-bell me-lg-2" />
-                    <span className="d-none d-lg-inline-flex">Notificatin</span>
-                  </a>
-                  <div className="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                    <a href="#" className="dropdown-item">
-                      <h6 className="fw-normal mb-0">Profile updated</h6>
-                      <small>15 minutes ago</small>
-                    </a>
-                    <hr className="dropdown-divider" />
-                    <a href="#" className="dropdown-item">
-                      <h6 className="fw-normal mb-0">New user added</h6>
-                      <small>15 minutes ago</small>
-                    </a>
-                    <hr className="dropdown-divider" />
-                    <a href="#" className="dropdown-item">
-                      <h6 className="fw-normal mb-0">Password changed</h6>
-                      <small>15 minutes ago</small>
-                    </a>
-                    <hr className="dropdown-divider" />
-                    <a href="#" className="dropdown-item text-center">
-                      See all notifications
-                    </a>
-                  </div>
-                </div>
+                
                 <div className="nav-item dropdown">
                   <a
                     href="#"
@@ -489,13 +393,13 @@ export default function Users(){
         {/* JavaScript Libraries */}
         <Script src="/admin/jquery/jquery-3.4.1.min.js"></Script>
         <Script src="/admin/jquery/bootstrap.bundle.min.js"></Script>
-        <Script src="/admin/lib/chart/chart.min.js"></Script>
-        <Script src="/admin/lib/easing/easing.min.js"></Script>
-        <Script src="/admin/lib/waypoints/waypoints.min.js"></Script>
-        <Script src="/admin/lib/owlcarousel/owl.carousel.min.js"></Script>
+        {/* <Script src="/admin/lib/chart/chart.min.js"></Script> */}
+        {/* <Script src="/admin/lib/easing/easing.min.js"></Script> */}
+        {/* <Script src="/admin/lib/waypoints/waypoints.min.js"></Script> */}
+        {/* <Script src="/admin/lib/owlcarousel/owl.carousel.min.js"></Script>
         <Script src="/admin/lib/tempusdominus/js/moment.min.js"></Script>
-        <Script src="/admin/lib/tempusdominus/js/moment-timezone.min.js"></Script>
-        <Script src="/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></Script>
+        <Script src="/admin/lib/tempusdominus/js/moment-timezone.min.js"></Script> */}
+        {/* <Script src="/admin/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></Script> */}
 
         <Script src="/admin/js/mainForCat.js"></Script>
         {/* Template Javascript */}
